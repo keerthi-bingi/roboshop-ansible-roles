@@ -1,0 +1,11 @@
+ansible_user: ec2-user
+ansible_password: DevOps321
+MONGODB_HOST: mongodb-dev.bingi.online
+CATALOGUE_HOST: catalogue-dev.bingi.online
+REDIS_HOST: redis-dev.bingi.online
+USER_HOST: user-dev.bingi.online
+CART_HOST: cart-dev.bingi.online
+MYSQL_HOST: mysql-dev.bingi.online
+SHIPPING_HOST: shipping-dev.bingi.online
+RABBITMQ_HOST: rabbitmq-dev.bingi.online
+PAYMENT_HOST: payment-dev.bingi.online
