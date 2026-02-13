@@ -13,10 +13,6 @@
     name: common
     tasks_from: systemd-setup.yaml
 
-- name: create systemd_service
-  ansible.builtin.template: 
-    src: shipping.service
-    dest: /etc/systemd/system/shipping.service
 
 - name: install dependencie
   ansible.builtin.pip:
