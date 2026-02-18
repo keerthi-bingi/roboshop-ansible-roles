@@ -4,3 +4,6 @@
     name: common
     tasks_from: import-include.yaml
   when: OS == "redhat"
+  loop:
+  - ramesh
+  - suresh
